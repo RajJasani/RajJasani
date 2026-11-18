@@ -1,109 +1,109 @@
 <svg width="850" height="200" viewBox="0 0 850 200" fill="none" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <!-- Background Garden Gradient -->
-    <linearGradient id="gardenCardBg" x1="0" y1="0" x2="850" y2="200" gradientUnits="userSpaceOnUse">
-      <stop offset="0%" stop-color="#0a130c" />
-      <stop offset="50%" stop-color="#0f1d13" />
-      <stop offset="100%" stop-color="#0a120b" />
+    <!-- Background Gradient -->
+    <linearGradient id="cardBg" x1="0" y1="0" x2="850" y2="200" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#0d1117" />
+      <stop offset="50%" stop-color="#161b22" />
+      <stop offset="100%" stop-color="#0a0d12" />
     </linearGradient>
 
-    <!-- Vine Border Gradient -->
-    <linearGradient id="vineGrad" x1="0" y1="0" x2="850" y2="200" gradientUnits="userSpaceOnUse">
-      <stop offset="0%" stop-color="#22c55e" stop-opacity="0.6" />
-      <stop offset="50%" stop-color="#34d399" stop-opacity="0.35" />
-      <stop offset="100%" stop-color="#a7f3d0" stop-opacity="0.5" />
+    <!-- Border Gradient -->
+    <linearGradient id="borderGrad" x1="0" y1="0" x2="850" y2="200" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#58a6ff" stop-opacity="0.6" />
+      <stop offset="50%" stop-color="#bc8cff" stop-opacity="0.3" />
+      <stop offset="100%" stop-color="#39d353" stop-opacity="0.4" />
     </linearGradient>
 
-    <!-- Garden Shimmer Gradient -->
-    <linearGradient id="gardenShimmer" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#4ade80" />
-      <stop offset="35%" stop-color="#34d399" />
-      <stop offset="70%" stop-color="#a7f3d0" />
-      <stop offset="100%" stop-color="#fde047" />
+    <!-- Text Shimmer Gradient -->
+    <linearGradient id="textShimmer" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#58a6ff" />
+      <stop offset="35%" stop-color="#bc8cff" />
+      <stop offset="70%" stop-color="#38bdf8" />
+      <stop offset="100%" stop-color="#39d353" />
     </linearGradient>
 
-    <!-- Soil Dot Matrix Pattern -->
-    <pattern id="gardenDotPattern" x="0" y="0" width="18" height="18" patternUnits="userSpaceOnUse">
-      <circle cx="2" cy="2" r="1.2" fill="#22c55e" fill-opacity="0.13" />
+    <!-- Dot Matrix Pattern -->
+    <pattern id="dotPattern" x="0" y="0" width="18" height="18" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.2" fill="#58a6ff" fill-opacity="0.14" />
     </pattern>
 
-    <!-- Ambient Foliage Glow Filter -->
-    <filter id="foliageGlow" x="-20%" y="-20%" width="140%" height="140%">
-      <feGaussianBlur stdDeviation="14" result="blur" />
+    <!-- Ambient Glow Filter -->
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="12" result="blur" />
       <feComposite in="SourceGraphic" in2="blur" operator="over" />
     </filter>
   </defs>
 
   <style>
-    .title-text {{
+    .title-text {
       font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'SF Pro Display', Roboto, Helvetica, Arial, sans-serif;
       font-size: 32px;
       font-weight: 800;
       letter-spacing: -0.5px;
-    }}
-    .mono-text {{
-      font-family: ui-monospace, 'SF Mono', Menlo, Monaco, Consolas, monospace;
-    }}
-    .badge-text {{
+    }
+    .mono-text {
+      font-family: ui-monospace, 'SF Mono', Menlo, Monaco, Consolas, 'Liberation Mono', monospace;
+    }
+    .badge-text {
       font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
       font-size: 11px;
-      font-weight: 700;
+      font-weight: 600;
       letter-spacing: 0.5px;
-    }}
-    @keyframes sproutPulse {{
-      0%, 100% {{ fill-opacity: 1; r: 3.5; }}
-      50% {{ fill-opacity: 0.35; r: 2.5; }}
-    }}
-    @keyframes cursorBlink {{
-      0%, 49% {{ opacity: 1; }}
-      50%, 100% {{ opacity: 0; }}
-    }}
-    @keyframes foliageDrift {{
-      0% {{ transform: translate(0, 0); }}
-      50% {{ transform: translate(8px, -6px); }}
-      100% {{ transform: translate(0, 0); }}
-    }}
-    .pulsing-sprout {{
-      animation: sproutPulse 2s infinite ease-in-out;
-    }}
-    .blinking-cursor {{
+    }
+    @keyframes pulseDot {
+      0%, 100% { fill-opacity: 1; r: 3.5; }
+      50% { fill-opacity: 0.35; r: 2.5; }
+    }
+    @keyframes cursorBlink {
+      0%, 49% { opacity: 1; }
+      50%, 100% { opacity: 0; }
+    }
+    @keyframes subtleDrift {
+      0% { transform: translate(0, 0); }
+      50% { transform: translate(6px, -4px); }
+      100% { transform: translate(0, 0); }
+    }
+    .pulsing-dot {
+      animation: pulseDot 2s infinite ease-in-out;
+    }
+    .blinking-cursor {
       animation: cursorBlink 1s infinite;
-    }}
-    .ambient-foliage {{
-      animation: foliageDrift 8s infinite ease-in-out;
-    }}
+    }
+    .ambient-circle {
+      animation: subtleDrift 8s infinite ease-in-out;
+    }
   </style>
 
   <!-- Base Card -->
-  <rect x="1" y="1" width="848" height="198" rx="14" fill="url(#gardenCardBg)" stroke="url(#vineGrad)" stroke-width="1.5" />
+  <rect x="1" y="1" width="848" height="198" rx="14" fill="url(#cardBg)" stroke="url(#borderGrad)" stroke-width="1.5" />
 
-  <!-- Botanical Dot Matrix Overlay -->
-  <rect x="2" y="2" width="846" height="196" rx="13" fill="url(#gardenDotPattern)" />
+  <!-- Dot Matrix Overlay -->
+  <rect x="2" y="2" width="846" height="196" rx="13" fill="url(#dotPattern)" />
 
-  <!-- Ambient Botanical Glow -->
-  <circle class="ambient-foliage" cx="750" cy="45" r="85" fill="#10b981" fill-opacity="0.18" filter="url(#foliageGlow)" />
-  <circle class="ambient-foliage" cx="800" cy="125" r="65" fill="#34d399" fill-opacity="0.12" filter="url(#foliageGlow)" />
+  <!-- Ambient Glow in Top Right -->
+  <circle class="ambient-circle" cx="760" cy="40" r="80" fill="#6366f1" fill-opacity="0.18" filter="url(#glow)" />
+  <circle class="ambient-circle" cx="800" cy="120" r="60" fill="#38bdf8" fill-opacity="0.12" filter="url(#glow)" />
 
   <!-- Status Pill Badge -->
   <g transform="translate(36, 26)">
-    <rect x="0" y="0" width="300" height="24" rx="12" fill="#14381e" fill-opacity="0.7" stroke="#22c55e" stroke-opacity="0.4" stroke-width="1" />
-    <circle class="pulsing-sprout" cx="14" cy="12" r="3.5" fill="#4ade80" />
-    <text class="badge-text" x="26" y="15.5" fill="#4ade80">🌱 DIGITAL GARDENER • OPEN SOURCE</text>
-    <text class="mono-text" x="315" y="16" fill="#86efac" font-size="11.5" opacity="0.8">id: @RajJasani</text>
+    <rect x="0" y="0" width="280" height="24" rx="12" fill="#238636" fill-opacity="0.15" stroke="#2ea043" stroke-opacity="0.35" stroke-width="1" />
+    <circle class="pulsing-dot" cx="14" cy="12" r="3.5" fill="#3fb950" />
+    <text class="badge-text" x="26" y="15.5" fill="#3fb950">OPEN SOURCE • ACTIVE CONTRIBUTOR</text>
+    <text class="mono-text" x="295" y="16" fill="#8b949e" font-size="11.5">id: @RajJasani</text>
   </g>
 
   <!-- Main Name Title -->
-  <text class="title-text" x="36" y="92" fill="url(#gardenShimmer)">Raj Jasani</text>
+  <text class="title-text" x="36" y="92" fill="url(#textShimmer)">Raj Jasani</text>
 
-  <!-- Terminal Garden Subtitle Line -->
+  <!-- Terminal Subtitle Line -->
   <g transform="translate(36, 126)">
-    <text class="mono-text" x="0" y="0" fill="#4ade80" font-size="14.5" font-weight="bold">➜</text>
-    <text class="mono-text" x="20" y="0" fill="#a7f3d0" font-size="13.5" font-weight="500">Cultivating Open-Source Systems • Tending AI Agents • Pruning Complexity</text>
-    <rect class="blinking-cursor" x="680" y="-12" width="7.5" height="15" fill="#4ade80" />
+    <text class="mono-text" x="0" y="0" fill="#f78166" font-size="14.5" font-weight="bold">➜</text>
+    <text class="mono-text" x="20" y="0" fill="#79c0ff" font-size="13.5" font-weight="500">Open-Source Systems • Applied AI &amp; Agent CLI • Full-Stack</text>
+    <rect class="blinking-cursor" x="570" y="-12" width="7.5" height="15" fill="#58a6ff" />
   </g>
 
   <!-- Subtext / Mission Statement -->
-  <text class="mono-text" x="36" y="160" fill="#86efac" font-size="12.5" opacity="0.75">
-    Nurturing resilient developer tooling, organic heuristic engines &amp; distributed open-source soil.
+  <text class="mono-text" x="36" y="160" fill="#8b949e" font-size="12.5">
+    Architecting resilient tools, heuristic engines &amp; intelligent developer workflows.
   </text>
 </svg>
