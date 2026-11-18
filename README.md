@@ -69,4 +69,4 @@ Software engineer and open-source contributor based in India, specializing in pr
 
 ### Connect
 
-[LinkedIn](https://www.linkedin.com/in/RajJasani) · [Email](mailto:raj.jasani2008@gmail.com) · [GitHub](https://github.com/RajJasani) · [Projects](https://github.com/RajJasani?tab=repositories)
+[LinkedIn](https://www.linkedin.com/in/raj-jasani-22546a406) · [GitHub](https://github.com/RajJasani) · [Projects](https://github.com/RajJasani?tab=repositories)
