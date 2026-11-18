@@ -1,12 +1,12 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/header.svg">
   <source media="(prefers-color-scheme: light)" srcset="assets/header.svg">
-  <img alt="Raj Jasani — Systems & Open Source Engineer" src="assets/header.svg" width="100%">
+  <img alt="Raj Jasani — Software Engineer" src="assets/header.svg" width="100%">
 </picture>
 
-Software engineer and open-source contributor based in India, specializing in autonomous CLI systems, local-first heuristic engines, and developer runtime tooling. Focused on deterministic process execution, sandboxed shell environments, and low-latency developer workflows.
+Software engineer and open-source contributor based in India, specializing in predictive AI applications, sustainable system architectures, and modern web engineering. Focused on building practical software solutions, optimized backend workflows, and polished user experiences.
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=14&pause=2000&duration=3200&color=38BDF8&vCenter=true&width=620&lines=Autonomous+CLI+Systems+%26+Sandboxing;Local-First+Heuristic+Engines+%26+AI+Agents;Applied+AI+Orchestration+%26+Tool+Calling;Open-Source+Infrastructure+%26+Unix+Tooling" alt="Typing animation showing focus areas" />
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=14&pause=2000&duration=3200&color=38BDF8&vCenter=true&width=620&lines=ZeroPlate.ai+%26+Predictive+Surplus+Analytics;Full-Stack+Web+Engineering+%26+Jasani.dev;Modern+UI%2FUX+Design+Systems+%26+Horizon;Applied+Machine+Learning+%26+Open+Source" alt="Typing animation showing focus areas" />
 
 ---
 
@@ -27,9 +27,9 @@ Software engineer and open-source contributor based in India, specializing in au
 
 | Project | Details | Links |
 | :--- | :--- | :---: |
-| **🛡️ GhostShell AI** | **Python · Terminal Sandboxing · Agentic CLI**<br>Autonomous terminal assistant engineered for safe shell command execution, heuristic threat inspection, and generative shell workflows. Built for Hacktoberfest. | [Repository](https://github.com/RajJasani/ghostshell-ai) |
-| **🦥 Sloth Tidy AI** | **Python · Heuristic Classification · Privacy-First**<br>Local-first workspace intelligence engine. Automatically categorizes assets and disorganized directories via lightweight rule heuristics with zero data exfiltration. | [Repository](https://github.com/RajJasani/sloth-tidy-ai) |
-| **🗣️ Bhasha Mentor** | **Multilingual AI · Accessibility · Developer Education**<br>Interactive platform bridging language barriers for regional developers through real-time concept mentoring, localized code explanations, and structured walkthroughs. | [Repository](https://github.com/RajJasani/devforge-hacktoberfest-ps11) |
+| **🌱 ZeroPlate.ai** | **Python · Predictive AI · Food Waste Redistribution · Analytics**<br>AI-powered sustainability platform that forecasts food demand, detects institutional surplus in commercial kitchens, and orchestrates automated redistribution to NGOs and food banks with route optimization and CO₂ impact analytics. | [Repository](https://github.com/RajJasani/ZeroPlate_ai) |
+| **🌐 jasani.dev** | **TypeScript · React · Web Architecture · Portfolio Engine**<br>Personal developer digital ecosystem and interactive portfolio designed for high performance, smooth typography, and showcasing full-stack applications and open-source contributions. | [Repository](https://github.com/RajJasani/Jasani.dev) |
+| **🌅 Horizon** | **HTML5 · CSS3 · UI/UX Design · Responsive Web Systems**<br>Clean, modern web design and portfolio exploration built with pure semantic HTML5 and modern CSS3 architectures, focusing on visual hierarchy, fluid layouts, and accessibility. | [Repository](https://github.com/RajJasani/Horizon) |
 
 ---
 
