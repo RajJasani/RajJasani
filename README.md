@@ -1,7 +1,7 @@
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/terminal-profile.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/terminal-profile.svg">
-  <img alt="Raj Jasani — Fastfetch Terminal Profile" src="assets/terminal-profile.svg" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/header.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/header.svg">
+  <img alt="Raj Jasani — Systems & Open Source Engineer" src="assets/header.svg" width="100%">
 </picture>
 
 Software engineer and open-source contributor based in India, specializing in autonomous CLI systems, local-first heuristic engines, and developer runtime tooling. Focused on deterministic process execution, sandboxed shell environments, and low-latency developer workflows.
@@ -30,7 +30,6 @@ Software engineer and open-source contributor based in India, specializing in au
 | **🛡️ GhostShell AI** | **Python · Terminal Sandboxing · Agentic CLI**<br>Autonomous terminal assistant engineered for safe shell command execution, heuristic threat inspection, and generative shell workflows. Built for Hacktoberfest. | [Repository](https://github.com/RajJasani/ghostshell-ai) |
 | **🦥 Sloth Tidy AI** | **Python · Heuristic Classification · Privacy-First**<br>Local-first workspace intelligence engine. Automatically categorizes assets and disorganized directories via lightweight rule heuristics with zero data exfiltration. | [Repository](https://github.com/RajJasani/sloth-tidy-ai) |
 | **🗣️ Bhasha Mentor** | **Multilingual AI · Accessibility · Developer Education**<br>Interactive platform bridging language barriers for regional developers through real-time concept mentoring, localized code explanations, and structured walkthroughs. | [Repository](https://github.com/RajJasani/devforge-hacktoberfest-ps11) |
-| **⚡ Fastfetch Profile** | **SVG · Monospace Engine · Live Telemetry**<br>Custom terminal card engine displaying live user specs, ASCII facial contour portrait, and real-time GitHub telemetry. | [Repository](https://github.com/RajJasani/RajJasani) |
 
 ---
 
