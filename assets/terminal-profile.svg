@@ -1,0 +1,93 @@
+<svg width="960" height="540" viewBox="0 0 960 540" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="960" y2="540" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#0b0f14" />
+      <stop offset="100%" stop-color="#0e131b" />
+    </linearGradient>
+    <filter id="cardShadow" x="-10" y="-10" width="980" height="560" filterUnits="userSpaceOnUse">
+      <feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="#000000" flood-opacity="0.6"/>
+    </filter>
+  </defs>
+
+  <style>
+    .terminal-font {
+      font-family: 'SF Mono', ui-monospace, Menlo, Monaco, Consolas, 'Courier New', monospace;
+      font-size: 12.5px;
+      line-height: 18.5px;
+    }
+    .ascii-text {
+      fill: #79c0ff;
+      letter-spacing: 0.5px;
+      font-weight: 500;
+    }
+    .lbl-cyan { fill: #58a6ff; font-weight: 600; }
+    .lbl-amber { fill: #f0883e; font-weight: 600; }
+    .sep-dim { fill: #2b3544; }
+    .dots-dim { fill: #212936; letter-spacing: 1.2px; }
+    .val-white { fill: #e6edf3; }
+    .val-accent { fill: #79c0ff; }
+    .sec-header { fill: #8b949e; font-weight: 600; }
+    .pos-green { fill: #3fb950; font-weight: 600; }
+    .neg-red { fill: #f85149; font-weight: 600; }
+  </style>
+
+  <!-- Terminal Window Background -->
+  <rect x="2" y="2" width="956" height="536" rx="14" fill="url(#bgGrad)" stroke="#1e2633" stroke-width="1.5" filter="url(#cardShadow)"/>
+
+  <!-- Window Header / Title Bar -->
+  <rect x="2" y="2" width="956" height="32" rx="14" fill="#131923" fill-opacity="0.8"/>
+  <rect x="2" y="22" width="956" height="12" fill="#131923" fill-opacity="0.8"/>
+  <line x1="2" y1="34" x2="958" y2="34" stroke="#1e2633" stroke-width="1"/>
+
+  <!-- Traffic Lights -->
+  <circle cx="22" cy="18" r="5.5" fill="#ff5f56" stroke="#e0443e" stroke-width="0.5"/>
+  <circle cx="39" cy="18" r="5.5" fill="#ffbd2e" stroke="#dea123" stroke-width="0.5"/>
+  <circle cx="56" cy="18" r="5.5" fill="#27c93f" stroke="#1aab29" stroke-width="0.5"/>
+  <text x="480" y="22" text-anchor="middle" fill="#8b949e" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="11.5" font-weight="500">rajjasani — fastfetch — 96x26</text>
+
+  <text x="28" y="52.0" class="terminal-font ascii-text" xml:space="preserve">                                  </text>
+  <text x="28" y="70.5" class="terminal-font ascii-text" xml:space="preserve">             :p%@%&#x27;`,;:           </text>
+  <text x="28" y="89.0" class="terminal-font ascii-text" xml:space="preserve">          ,gM@%NN,gM@%NN          </text>
+  <text x="28" y="107.5" class="terminal-font ascii-text" xml:space="preserve">       &#x27;w,@%%@%w,@%%@%w,@%`       </text>
+  <text x="28" y="126.0" class="terminal-font ascii-text" xml:space="preserve">      &#x27;,gM@%NN,gM@%NN,gM@%N;      </text>
+  <text x="28" y="144.5" class="terminal-font ascii-text" xml:space="preserve">     w,@%%@%w,@%%@%w,@%%@%w,!     </text>
+  <text x="28" y="163.0" class="terminal-font ascii-text" xml:space="preserve">    &#x27;gM@%NN,gM`,;:!^ @%NN,gM@%    </text>
+  <text x="28" y="181.5" class="terminal-font ascii-text" xml:space="preserve">    @%%@%w,.&#x27;`,;:!^ .&#x27;`,;:%%@%w   </text>
+  <text x="28" y="200.0" class="terminal-font ascii-text" xml:space="preserve">    @@@@@j&#x27; &#x27; &#x27; &#x27; &#x27; &#x27; &#x27; &#x27; k@@@@   </text>
+  <text x="28" y="218.5" class="terminal-font ascii-text" xml:space="preserve">   &#x27;@@@@:;:;:&#x27; &#x27; &#x27; &#x27; &#x27;:;:;:@@@@   </text>
+  <text x="28" y="237.0" class="terminal-font ascii-text" xml:space="preserve">    @@@%&#x27;:k:kj@:&#x27; &#x27; ;%k:;:;:@@@   </text>
+  <text x="28" y="255.5" class="terminal-font ascii-text" xml:space="preserve">    @@@&#x27; &#x27; ;:kjk:&#x27; &#x27;jkjk:;:;]_@   </text>
+  <text x="28" y="274.0" class="terminal-font ascii-text" xml:space="preserve">    k@@j&#x27;:;j@@;j; &#x27; ;:@@%jk]@j;   </text>
+  <text x="28" y="292.5" class="terminal-font ascii-text" xml:space="preserve">   ,.`mk `.` ` `.` `.` ` `.,@`.`  </text>
+  <text x="28" y="311.0" class="terminal-font ascii-text" xml:space="preserve">    ,.k., ` ` `., ` `.` ` `.,.`   </text>
+  <text x="28" y="329.5" class="terminal-font ascii-text" xml:space="preserve">     k.,., ` ` ,h, ,h,.` `.k.`    </text>
+  <text x="28" y="348.0" class="terminal-font ascii-text" xml:space="preserve">      `.,., ` ,.khk@k.,.,.k.`     </text>
+  <text x="28" y="366.5" class="terminal-font ascii-text" xml:space="preserve">       ` ,.,.kmHMkhkmHMk.,.`      </text>
+  <text x="28" y="385.0" class="terminal-font ascii-text" xml:space="preserve">         m.,j,.mj,.,jm.mj,.       </text>
+  <text x="28" y="403.5" class="terminal-font ascii-text" xml:space="preserve">         .mjmj,.,.,.,.,jmj,       </text>
+  <text x="28" y="422.0" class="terminal-font ascii-text" xml:space="preserve">          .%jm.,.,.,.,.mk,        </text>
+  <text x="28" y="440.5" class="terminal-font ascii-text" xml:space="preserve">          ,jmj,.,.,.,.mjm.        </text>
+  <text x="28" y="459.0" class="terminal-font ascii-text" xml:space="preserve">      lk@Hbkk%%%@%k@HH%lj%%kk     </text>
+  <text x="28" y="477.5" class="terminal-font ascii-text" xml:space="preserve">      b@%HHkilljj%Hki%ljjk@Hbl    </text>
+  <text x="28" y="496.0" class="terminal-font ascii-text" xml:space="preserve">    lH%%H%%illjjjkkilljj%HkH%%j   </text>
+  <text x="28" y="514.5" class="terminal-font ascii-text" xml:space="preserve"> k%%@%k@H%%lljjjkkil%jjjH%i%k@Hbk </text>
+  <text x="330" y="52.0" class="terminal-font" xml:space="preserve"><tspan class="lbl-cyan">RajJasani</tspan><tspan class="sep-dim"> -------------------------------------------------------------</tspan></text>
+  <text x="330" y="70.5" class="terminal-font" xml:space="preserve"><tspan class="lbl-cyan">. OS:</tspan><tspan class="dots-dim">...........................................</tspan><tspan class="val-white"> macOS Sequoia 15.1</tspan></text>
+  <text x="330" y="89.0" class="terminal-font" xml:space="preserve"><tspan class="lbl-cyan">. Uptime:</tspan><tspan class="dots-dim">.......................................</tspan><tspan class="val-white"> 18 years, 2 months, 10 days</tspan></text>
+  <text x="330" y="107.5" class="terminal-font" xml:space="preserve"><tspan class="lbl-cyan">. Host:</tspan><tspan class="dots-dim">.........................................</tspan><tspan class="val-white"> Systems &amp; Automation Lab</tspan></text>
+  <text x="330" y="126.0" class="terminal-font" xml:space="preserve"><tspan class="lbl-cyan">. Title:</tspan><tspan class="dots-dim">........................................</tspan><tspan class="val-white"> Systems &amp; AI Engineer</tspan></text>
+  <text x="330" y="144.5" class="terminal-font" xml:space="preserve"><tspan class="lbl-cyan">. IDE:</tspan><tspan class="dots-dim">..........................................</tspan><tspan class="val-white"> VSCode, NeoVim</tspan></text>
+  <text x="330" y="181.5" class="terminal-font" xml:space="preserve"><tspan class="lbl-amber">. Languages.Programming:</tspan><tspan class="dots-dim">..</tspan><tspan class="val-white"> Python, TypeScript, JavaScript, Bash, SQL</tspan></text>
+  <text x="330" y="200.0" class="terminal-font" xml:space="preserve"><tspan class="lbl-amber">. Languages.Computer:</tspan><tspan class="dots-dim">.....................</tspan><tspan class="val-white"> HTML, CSS, JSON, YAML, Markdown</tspan></text>
+  <text x="330" y="218.5" class="terminal-font" xml:space="preserve"><tspan class="lbl-amber">. Languages.Real:</tspan><tspan class="dots-dim">.................................</tspan><tspan class="val-white"> English, Hindi, Gujarati</tspan></text>
+  <text x="330" y="255.5" class="terminal-font" xml:space="preserve"><tspan class="lbl-amber">. Hobbies.Software:</tspan><tspan class="dots-dim">....</tspan><tspan class="val-white"> AI CLI Agents, Local Heuristics, Tooling</tspan></text>
+  <text x="330" y="274.0" class="terminal-font" xml:space="preserve"><tspan class="lbl-amber">. Hobbies.Hardware:</tspan><tspan class="dots-dim">.......................</tspan><tspan class="val-white"> System Architecture, PC Building</tspan></text>
+  <text x="330" y="311.0" class="terminal-font" xml:space="preserve"><tspan class="sec-header">- Contact</tspan><tspan class="sep-dim"> -----------------------------------------------------------</tspan></text>
+  <text x="330" y="329.5" class="terminal-font" xml:space="preserve"><tspan class="lbl-amber">. Email.Personal:</tspan><tspan class="dots-dim">...............................</tspan><tspan class="val-white"> raj.jasani2008@gmail.com</tspan></text>
+  <text x="330" y="348.0" class="terminal-font" xml:space="preserve"><tspan class="lbl-amber">. LinkedIn:</tspan><tspan class="dots-dim">.....................................</tspan><tspan class="val-white"> RajJasani</tspan></text>
+  <text x="330" y="366.5" class="terminal-font" xml:space="preserve"><tspan class="lbl-amber">. GitHub:</tspan><tspan class="dots-dim">.......................................</tspan><tspan class="val-white"> RajJasani</tspan></text>
+  <text x="330" y="403.5" class="terminal-font" xml:space="preserve"><tspan class="sec-header">- GitHub Stats</tspan><tspan class="sep-dim"> -------------------------------------------------------</tspan></text>
+  <text x="330" y="422.0" class="terminal-font" xml:space="preserve"><tspan class="lbl-amber">. Repos:</tspan><tspan class="dots-dim">...</tspan><tspan class="val-white"> 13 </tspan><tspan class="dots-dim">{Contributed: </tspan><tspan class="val-accent">GhostShell AI, Sloth AI</tspan><tspan class="dots-dim">} | Stars: </tspan><tspan class="dots-dim">....................</tspan><tspan class="val-white"> 10+</tspan></text>
+  <text x="330" y="440.5" class="terminal-font" xml:space="preserve"><tspan class="lbl-amber">. Commits:</tspan><tspan class="dots-dim"> .......................... </tspan><tspan class="val-white">344+</tspan><tspan class="dots-dim"> | Followers: </tspan><tspan class="dots-dim">........ </tspan><tspan class="val-white">Active</tspan></text>
+  <text x="330" y="459.0" class="terminal-font" xml:space="preserve"><tspan class="lbl-amber">. Lines of Code on GitHub:</tspan><tspan class="dots-dim"> . </tspan><tspan class="val-white">85k+</tspan><tspan class="dots-dim"> ( </tspan><tspan class="pos-green">92k+++</tspan><tspan class="dots-dim">, </tspan><tspan class="neg-red">7k+--</tspan><tspan class="dots-dim"> )</tspan></text>
+</svg>
